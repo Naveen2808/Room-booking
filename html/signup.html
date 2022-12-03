@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <header>
+        <h1>Signup</h1>
+    </header>
+    <div class="forms">
+        <div>
+            <h1>create a new account </h1>
+            <h5>It's quick and easy.</h5>
+        </div>
+        <img src="Images/signup.png" alt="login">
+        <form action="#" method="get">
+            <input type="text" name="firstname" id="firstname" placeholder="   First Name">
+            <br>
+            <br>
+            <input type="text" name="secondname" id="secondname" placeholder="   Surename ">
+            <br>
+            <br>
+            <input type="text" minlength="10" placeholder="   MobileNumber " required>
+            <br>
+            <br>
+            <input type="email" placeholder=" Email address" required>
+            <br>
+            <br>
+            <input type="password" name="password" id="password" placeholder="  Enter Password">
+            <br>
+            <br>
+            <span class="gender">
+              <input type="radio" id="Male" name="Gender" value="Male">
+              <label for="Male">Male</label>
+              <input type="radio" id="Female" name="Gender" value="Female">
+              <label for="Female">Female</label>
+              <input type="radio" id="custom" name="Gender" value="custom">
+              <label for="custom">Custom</label>
+            </span>
+            <br>
+            <br>
+            <button type="submit" ><a href="HomePage.html" style="color: white;">Sign Up</a></button>
+        </form>
+        <br>
+        <small><a href="login.html"> Already have an account? </a></small>
+    </div>
+</body>
+
+</html>

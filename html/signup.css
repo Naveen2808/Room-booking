@@ -1,0 +1,46 @@
+
+header>h1{
+    color: orange;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+.forms{
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    width: 300px;
+    height: 25px;
+    border-color: aliceblue;
+}
+body{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    border-color: bisque;
+}
+button{
+    width: 100px;
+    font-weight: bolder;
+    background-color: green;
+    border-radius: 10px;
+    color: aliceblue;
+    height: 30px;   
+    border-color: aliceblue;
+}
+a{
+    text-decoration: none ;
+    font-weight: 600;
+    color: blue;
+    font-size: larger;
+}
+p{
+    font-weight: bolder;
+}
+.gender>input{
+    width: 10px;
+}
